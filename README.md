@@ -6,10 +6,9 @@ There is a reason why there are no answers here — you as an interviewee should
 
 # Ruby
 
-- What is a `Symbol`?
-- Compare and `Symbol` and `String` in Ruby? Why use one vs the other?
-- Describe multiple ways to define an _instance method_ in Ruby; now do similar for _class methods_
-- Which is generally the better option (not only for Ruby): a recursive function or an iterative one?
+- Compare `Symbol` and `String`, why use one vs the other?
+- Describe multiple ways to define an _instance method_ in Ruby; now do the similar for _class methods_
+- Which is generally the better option (not only for Ruby): a _recursive_ function or an _iterative_ one?
 - What are `#method_missing` and `#send`? Why are they useful?
 - What are the various Ruby runtimes, and how are they different?
 - What does `self` mean when used in a class?
@@ -27,8 +26,8 @@ There is a reason why there are no answers here — you as an interviewee should
 - What is **meta-programming**, what methods of **meta-programming** does Ruby support, and when/why would you use it in a project?
 - What does the `lazy` method do to enumerators and why is that useful?
 - Why do some methods end with a bang `!` and others with question marks `?`, what are they called and what do they do?
-- Talk about **SOLID** principle
 - Go through Basic OOP primitives like _encapsulation_, _abstraction_, _polymorphism_ and _inheritance_
+- Talk about **SOLID** principle
 - What's the difference between `include` and `extend`?
 - Describe access modifiers and how they are used within the ruby language (`private`, `public`, `protected`)
 - How would you declare and use a _constructor_ in Ruby?
@@ -44,7 +43,7 @@ There is a reason why there are no answers here — you as an interviewee should
 - When do you prefer to use `fetch` over `[]` on `Hash` (and other way around) and why?
 - What's the difference between `local`, `@instance`, `@@class`, and `$global` variables? Why and where would you use specific type?
 - How can you implement method overloading?
-- How can you call the base _class method_ from inside of its _overriden method_?
+- How can you call the _base class method_ from inside of its _overriden method_?
 
 # Rails
 
@@ -58,15 +57,15 @@ There is a reason why there are no answers here — you as an interviewee should
 - What is the **Convention over Configuration** pattern? Provide examples of how it is applied in Rails
 - What is the _fat model, skinny controller_ approach? Discuss some of its advantages and pitfalls, as well as some alternatives
 - Describe the Rails testing philosophy
-- Explain the use of `yield` and `content_for` in layouts and provide examples
 - What is the purpose of layouts?
+- Explain the use of `yield` and `content_for` in layouts and provide examples
 - What are `N+1` queries and how can you avoid them? How would you find/debug `N+1` queries?
 - What are filters/actions in Rails? Describe the three types of filters, including how and why each might be used, and the order in which they are executed
 - What is Rack middleware? How does it compare to controller filters/actions?
 - Explain what Rails' mass-assignment vulnerability is and Rails' method to control field access
 - How do you sort an `Array` of objects by a particular attribute? What is a better way to do sorting with ActiveRecord?
 - What are the different server options for running a Rails/Rack app?
-- Explain CSRF and how Rails combats it
+- Explain **CSRF** and how Rails combats it
 - Explain various forms of caching available in Rails
 - How is something like `30.seconds.ago` implemented?
 - What is Rails _concern_?
@@ -76,10 +75,10 @@ There is a reason why there are no answers here — you as an interviewee should
 - What are some ActiveRecords callbacks which you are familiar with?
 - Does ActiveRecord have `after_delete` callback?
 - What are the benefits of using active records as opposed to native SQL queries. On which occasion should you be choosing one over the other?
-- Explain Rails DB migrate, and the benefits that comes along with that?
+- Explain `rails db:migrate` and the benefits that comes along with that?
 - Explain how Rails' scaffolding works and why you would want to use them
 - What is _database transactions_ and how it is represented in Rails?
-- Explain ActiveRecord’s associations (all of them)
+- Explain ActiveRecord's associations (all of them)
 - What are scopes in ActiveRecord? How should you use them?
 - Where would you use `#pluck` and why exactly is it useful?
 - Explain _eager loading_
