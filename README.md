@@ -19,15 +19,15 @@ There is a reason why there are no answers here — you as an interviewee should
 - What is the difference between a `lambda`, a `block` and a `proc`?
 - What about _closures_ in Ruby? What are they?
 - Explain what `a ||= b` means
-- What is *memoization*? Why and when would you use it?
-- Have you heard the term *PORO*? Do you know what it is?
+- What is **memoization**? Why and when would you use it?
+- Have you heard the term **PORO**? Do you know what it is?
 - Is it bad to rescue `Exception`? Why?
 - What's the difference between the `&` and `&&` operators?
 - What's the difference between the `and` and `&&` operators? Why use one over the other?
-- What is *meta-programming*, what methods of *meta-programming* does Ruby support, and when/why would you use it in a project?
+- What is **meta-programming**, what methods of **meta-programming** does Ruby support, and when/why would you use it in a project?
 - What does the `lazy` method do to enumerators and why is that useful?
 - Why do some methods end with a bang `!` and others with question marks `?`, what are they called and what do they do?
-- Talk about *SOLID* principle
+- Talk about **SOLID** principle
 - Go through Basic OOP primitives like _encapsulation_, _abstraction_, _polymorphism_ and _inheritance_
 - What's the difference between `include` and `extend`?
 - Describe access modifiers and how they are used within the ruby language (`private`, `public`, `protected`)
@@ -35,7 +35,7 @@ There is a reason why there are no answers here — you as an interviewee should
 - How would you create _getter_ and _setter_ methods in Ruby?
 - What is a `Class`, what is an `Object` and why we need `Module`?
 - Does Ruby support _multiple inheritance_?
-- What are *mixins*, how do they work, and how would you use them? What are some advantages of using them and what are some potential problems? Give examples to support your answers
+- What are **mixins**, how do they work, and how would you use them? What are some advantages of using them and what are some potential problems? Give examples to support your answers
 - Explain what singleton methods are, what is _Eigenclass_ in Ruby?
 - Describe Ruby method lookup path
 - Describe available Ruby callbacks and how can we use them in practice?
@@ -50,12 +50,12 @@ There is a reason why there are no answers here — you as an interviewee should
 
 - Explain the different pieces of Rails
 - Explain the processing flow of a Rails request
-- Explain *MVC* in terms of Rails
-- What is *REST*?
+- Explain **MVC** in terms of Rails
+- What is **REST**?
 - Describe the Rails Asset Pipeline and how it handles assets (such as JavaScript and CSS files); bonus points for explaining what was the big change in Rails 5.1
-- What is an *ORM*?
+- What is an **ORM**?
 - What is ActiveRecord and what is Arel? Describe the capabilities of each
-- What is the *Convention over Configuration* pattern? Provide examples of how it is applied in Rails
+- What is the **Convention over Configuration** pattern? Provide examples of how it is applied in Rails
 - What is the _fat model, skinny controller_ approach? Discuss some of its advantages and pitfalls, as well as some alternatives
 - Describe the Rails testing philosophy
 - Explain the use of `yield` and `content_for` in layouts and provide examples
