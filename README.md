@@ -28,7 +28,7 @@ There is a reason why there are no answers here — you as an interviewee should
 - Why do some methods end with a bang `!` and others with question marks `?`, what are they called and what do they do?
 - Go through Basic OOP primitives like _encapsulation_, _abstraction_, _polymorphism_ and _inheritance_
 - Talk about **SOLID** principle
-- What's the difference between `include` and `extend`?
+- What's the difference between `extend`, `prepend`, and `include`?
 - Describe access modifiers and how they are used within the ruby language (`private`, `public`, `protected`)
 - How would you declare and use a _constructor_ in Ruby?
 - How would you create _getter_ and _setter_ methods in Ruby?
